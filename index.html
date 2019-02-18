@@ -9,7 +9,8 @@
   <body >
     <script src="./widget.js"></script>
     <script>
-      EmbeddableWidget.mount('xoh', '#be713c', '#fff');
+      const config = { username: 'xoh', iconColor: '#be713c', backgroundColor: '#fff', position: 'right' }
+      Somm.mount(config);
     </script>
     <div class="iframe-container">
       <iframe
